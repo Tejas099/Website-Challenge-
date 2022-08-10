@@ -98,7 +98,7 @@ p{
     width: min(100vw, 1440px);
     height: fit-content;
     justify-content: center;
-    padding: 6rem 4rem 16rem 4rem;
+    padding: 6rem 4rem 4rem 4rem;
     gap: 3rem;
 }
 
@@ -166,7 +166,7 @@ footer{
 } 
 
 .community{
-    position: absolute;
+    position: relative;
     box-shadow: 0.2rem 0.2rem 1rem var(--Very-Dark-Cyan);
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ footer{
     padding: 4rem 7rem;
     background-color: white;
     border-radius: 1rem;
-    margin-top: 100%;
+    top:150px;
 }
 
 a {
